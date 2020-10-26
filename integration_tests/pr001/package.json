@@ -1,0 +1,16 @@
+{
+  "name": "pr001",
+  "version": "1.0.0",
+  "description": "",
+  "target": "esnext",
+  "module": "commonjs",
+  "scripts": {
+    "build": "rimraf ./dist && parcel build src/Test.ts"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "parcel-transformer-typescript": "file:./../.."
+  },
+  "author": "",
+  "license": "ISC"
+}
